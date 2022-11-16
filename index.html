@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <button class="btn-login" onclick="showmodal()">Login</button>
+    <div class="overlay" onclick="removemodal()"></div>
+    <div class="loginform">
+        <span onclick="removemodal()">&times;</span>
+        <div>
+            <p>WELCOME TO SPECTROTALK</p>
+        </div>
+        <form action="">
+            <div>
+                <label for="">Username</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="">Password</label>
+                <input type="password">
+            </div>
+            <button>LOGIN</button>
+        </form>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
